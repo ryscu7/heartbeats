@@ -25,5 +25,5 @@ This script:
 - Downloads the latest `heartbeats.exe` from GitHub Releases.
 - Adds it to the Startup Folder so it runs when your PC starts
 
-!!! > [!NOTE]
+> [!NOTE]
 > To see the startup folder, Press `Windows Key + R` and type `shell:startup` and press `Enter`.
