@@ -1,8 +1,8 @@
 # Configuration
-$repoOwner = "kazxieo"
+$repoOwner = "ryscu7"
 $repoName = "heartbeats"
 $binaryName = "heartbeats.exe" # Replace with the actual binary name
-$assetExtension = ".zip" # Use ".exe" if it's a direct binary
+$assetExtension = ".exe" # Use ".exe" if it's a direct binary
 
 # GitHub API URL for latest release
 $releaseUrl = "https://api.github.com/repos/$repoOwner/$repoName/releases/latest"
