@@ -1,5 +1,5 @@
 # Configuration
-$repoOwner = "kazxieo"
+$repoOwner = "ryscu7"
 $repoName = "heartbeats"
 $binaryName = "heartbeats.exe" # Replace with the actual binary name
 $assetExtension = ".exe" # Use ".exe" if it's a direct binary
