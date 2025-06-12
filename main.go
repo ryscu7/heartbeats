@@ -22,41 +22,8 @@ var MorningMessages string
 //go:embed night_messages.txt
 var GoodNightMessages string
 
-// func main() {
-//
-// 	ticker := time.NewTicker(10 * time.Minute)
-// 	defer ticker.Stop()
-//
-// 	for {
-// 		now := time.Now()
-// 		titles, messages := strings.Split(strings.TrimSpace(Title), "\n"), strings.Split(strings.TrimSpace(Messages), "\n")
-// 		morning_messages, night_messages := strings.Split(strings.TrimSpace(MorningMessages), "\n"), strings.Split(strings.TrimSpace(GoodNightMessages), "\n")
-//
-// 		select {
-// 		case <-ticker.C:
-// 			title, message := randomMessage(titles), randomMessage(messages)
-// 			sendNotification(title, message)
-// 		default:
-// 			// Check for 11 AM message
-// 			if now.Hour() == 11 && now.Minute() == 0 {
-// 				title, morningMessage := randomMessage(titles), randomMessage(morning_messages)
-// 				sendNotification(title, morningMessage)
-// 				continue
-// 			}
-//
-// 			// Check for 11 PM message
-// 			if now.Hour() == 23 && now.Minute() == 0 {
-// 				title, nightMessage := randomMessage(titles), randomMessage(night_messages)
-// 				sendNotification(title, nightMessage)
-// 				continue
-// 			}
-//
-// 		}
-// 	}
-// }
-
 func main() {
-	ticker := time.NewTicker(1 * time.Minute)
+	ticker := time.NewTicker(10 * time.Minute)
 	defer ticker.Stop()
 
 	for {
